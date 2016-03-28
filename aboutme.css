@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic);
+
+* {
+  /* Layout Declarations */
+  box-sizing: border-box;
+}
+
+body {
+  /*typography declarations*/
+  margin: 0;
+  color: #222222;
+  font-size: 1em;
+  font-family: "open sans", "Helvetica Neue", sans-serif;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url(https://images.unsplash.com/photo-1452800185063-6db5e12b8e2e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c20edde459d588310aa3dd6a7d7d5446);
+  background-size: cover;
+  background-repeat: none;
+  border-top: solid 1em #00E5EE;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  color: white;
+  font-size: 2em;
+  font-family: "Gentium Book Basic", Georgia, Serif;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  color: #FFFFAA;
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  font-family: 'Open Sans', sans-serif; 
+  text-shadow: 0em 0.04em #EEEE00;
+  text-transform: uppercase;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content_footer {
+  text-align: center;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+  /*typography declarations*/
+  font-weight:300;
+  letter-spacing: 0.05em;
+}
+
+section h2 {
+  color: #FCD116;
+  /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content_footer {
+  background-color: #0DFFFC;
+  padding: 3.5em;
+}
+
+.social_wrap a {
+  display: inline-block;
+  margin: 0 2em 0 2em;
+  font-family: cambria;
+  text-decoration: none;
+}
+
+.content_footer a {
+  text-decoration: none;
+}
+
+
