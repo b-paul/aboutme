@@ -20,15 +20,6 @@ body {
   border-top: solid 1em #00E5EE;
 }
 
-@media only screen and (max-width: 500px) {
-    .masthead {
-        padding: 3em 0;
-    }
-    .masthead-heading, .social-wrap a {
-        font-size: 3em;
-    }
-}
-
 .masthead-intro {
   margin-bottom: 0.1em;
   color: white;
@@ -99,4 +90,11 @@ section h2 {
   text-decoration: none;
 }
 
-
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading, .social-wrap a {
+        font-size: 3em;
+    }
+}
