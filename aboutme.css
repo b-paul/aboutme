@@ -27,6 +27,9 @@ body {
     .masthead-heading {
         font-size: 3em;
     }
+    .social-wrap a{
+        font-size: 3em;
+    }
 }
 
 .masthead-intro {
@@ -91,7 +94,9 @@ section h2 {
 }
 
 
-@media
+@media only screen and (max-width: 500) {
+
+}
 
 .content_footer a {
   text-decoration: none;
