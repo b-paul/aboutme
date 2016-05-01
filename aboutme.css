@@ -40,7 +40,7 @@ body {
 
 .masthead-intro,
 .masthead-heading,
-.content_footer {
+.content-footer {
   text-align: center;
 }
 
@@ -69,12 +69,12 @@ section h2 {
     font-weight: bold;
 }
 
-.content_footer {
+.content-footer {
   background-color: #0DFFFC;
   padding: 3.5em;
 }
 
-.social_wrap a {
+.social-wrap a {
   display: inline-block;
   margin: 0 2em 0 2em;
   font-family: cambria;
@@ -82,11 +82,7 @@ section h2 {
 }
 
 
-@media only screen and (max-width: 500) {
-
-}
-
-.content_footer a {
+.content-footer a {
   text-decoration: none;
 }
 
