@@ -24,10 +24,7 @@ body {
     .masthead {
         padding: 3em 0;
     }
-    .masthead-heading {
-        font-size: 3em;
-    }
-    .social-wrap a{
+    .masthead-heading, .social-wrap a {
         font-size: 3em;
     }
 }
